@@ -6,7 +6,7 @@
 
 -Next I had a small problem with finding the ABI of the smart contract, but after a little bit of research I managed to find it.
 
--I had trouble with the smart contract and the methods from the smart contract. I learned that when working with Web 3.0 I need to use asynchronous functions witch I tried to do, but when I did that I would get fewer NFTs than expected so I removed that part from the code, and I am still trying to investigate why was that the issue.
+-I had trouble with the smart contract and the methods from the smart contract. I learned that when working with Web 3.0 I need to use asynchronous functions which I tried to do, but when I did that I would get fewer NFTs than expected so I removed that part from the code, and I am still trying to investigate why was that the issue.
 
 -The last issue I had was with the API, so first I thought that we just need to set url in the specific lwin but that wasn't the case. I had trouble with setting the client key and secret, but after some time I found the solution. Also when I was getting the prices from the API, I didn't know that there are different price types and that I needed to include them, but after reading trough Price Data API I figured it out and it was working just fine.
 
