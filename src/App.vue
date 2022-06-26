@@ -142,11 +142,11 @@ export default {
 					);
 			}
 		},
-		async updatePage(pageNumber) {
+		updatePage(pageNumber) {
 			this.currentPage = pageNumber;
 			this.updateVisibleNFTs();
 		},
-		async updateVisibleNFTs() {
+		updateVisibleNFTs() {
 			this.visibleNFTs = this.allNFTs.slice(
 				this.currentPage * this.pageSize,
 				this.currentPage * this.pageSize + this.pageSize
@@ -209,10 +209,7 @@ export default {
 					}
 				)
 				.then((res) => {
-					console.log(
-						(this.price =
-							res.data.lwinDetail[0].dataDetail[0].priceData)
-					);
+					this.price = res.data.lwinDetail[0].dataDetail[0].priceData;
 				});
 		},
 	},
